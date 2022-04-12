@@ -85,9 +85,62 @@ document.write(sting);
                document.write("Title case : "+digt2);
   */
                // Question 12
-               // Question 13
+  /*
+ var num = 35.36;
+ document.write("Number : " +num +"<br>");
+ var num2 = num.toString().replace(".", "");
+ document.write("Result : " +num2);
+ */   
                // Question 14
-               // Question 15
+/*
+    var A=["cake","apple pie","cookie","chips","patties"]
+    var resurch =prompt("Welcome to ABC Bakery.what do you want to order\n sir/mam? ");
+  
+      resurch.charAt(A);
+    var index = A.indexOf();
+    if(A===resurch){
+      document.write(resurch+"is available at Index :" +index +"in our backery")
+
+    }
+      else{
+      document.write(resurch+"is not available in our backery")
+
+    }
+    */
+              // Question 15
+    /*
+              var passw=prompt("please inter your pasword")
+      function CheckPassword(password) 
+{ 
+
+var mypass=passw.tolowercase()===password.tolowercase();
+if(password.value.match(passw)) 
+{ 
+alert('Correct, try another...')
+return true;
+}
+else
+{ 
+alert('Wrong...!')
+return false;
+}
+}
+document.write(mypass); */
                // Question 16
+           /*
+               myText.split(/\n/)
+             
+               var string = "University of Karachi";
+var newstrings = string.split("\n"); 
+             
+              
+            
+               document.write(myText);
+*/
+
                // Question 17
+var country= "pakistan";
+var chek=country.charAt(7);
+document.write(chek);
+
                // Question 18
