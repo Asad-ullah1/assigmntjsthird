@@ -139,8 +139,16 @@ var newstrings = string.split("\n");
 */
 
                // Question 17
+        /*       
 var country= "pakistan";
+document.write("User input : " +country+"<br>")
 var chek=country.charAt(7);
-document.write(chek);
+document.write("Last character of input"+chek);
 
-               // Question 18
+*/          
+
+// Question 18
+
+var textt="The quick brown fox jumps over the lazy dog";
+var set =textt.match("the");
+document.write(set);
