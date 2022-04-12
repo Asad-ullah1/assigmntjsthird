@@ -148,7 +148,8 @@ document.write("Last character of input"+chek);
 */          
 
 // Question 18
-
+/*
 var textt="The quick brown fox jumps over the lazy dog";
 var set =textt.match("the");
-document.write(set);
+document.write(set);  //
+*/
